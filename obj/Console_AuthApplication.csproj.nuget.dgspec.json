@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NetProjectsConsole\\Console_AuthApplication\\Console_AuthApplication.csproj": {}
+    "D:\\Projects\\Console_AuthApplication\\Console_AuthApplication.csproj": {}
   },
   "projects": {
-    "D:\\NetProjectsConsole\\Console_AuthApplication\\Console_AuthApplication.csproj": {
+    "D:\\Projects\\Console_AuthApplication\\Console_AuthApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetProjectsConsole\\Console_AuthApplication\\Console_AuthApplication.csproj",
+        "projectUniqueName": "D:\\Projects\\Console_AuthApplication\\Console_AuthApplication.csproj",
         "projectName": "Console_AuthApplication",
-        "projectPath": "D:\\NetProjectsConsole\\Console_AuthApplication\\Console_AuthApplication.csproj",
+        "projectPath": "D:\\Projects\\Console_AuthApplication\\Console_AuthApplication.csproj",
         "packagesPath": "C:\\Users\\reuser\\.nuget\\packages\\",
-        "outputPath": "D:\\NetProjectsConsole\\Console_AuthApplication\\obj\\",
+        "outputPath": "D:\\Projects\\Console_AuthApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,78 +26,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\System-Config\\NuGetStore": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "D:\\NetProjectsConsole\\Console_CommonApplication\\Console_CommonApplication.csproj": {
-                "projectPath": "D:\\NetProjectsConsole\\Console_CommonApplication\\Console_CommonApplication.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\NetProjectsConsole\\Console_CommonApplication\\Console_CommonApplication.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\NetProjectsConsole\\Console_CommonApplication\\Console_CommonApplication.csproj",
-        "projectName": "Console_CommonApplication",
-        "projectPath": "D:\\NetProjectsConsole\\Console_CommonApplication\\Console_CommonApplication.csproj",
-        "packagesPath": "C:\\Users\\reuser\\.nuget\\packages\\",
-        "outputPath": "D:\\NetProjectsConsole\\Console_CommonApplication\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\reuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "D:\\NetProjectsConsole\\Console_CommonApplication\\Console_CommonApplication.csproj": {
-                "projectPath": "D:\\NetProjectsConsole\\Console_CommonApplication\\Console_CommonApplication.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -110,17 +45,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Hosting": {
+            "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
-              "version": "[2.2.7, )"
+              "version": "[5.0.17, )"
             },
-            "Microsoft.AspNetCore.Hosting.Server.Abstractions": {
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[5.0.2, )"
             },
-            "Newtonsoft.Json": {
+            "Microsoft.Extensions.DependencyModel": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

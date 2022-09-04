@@ -1,0 +1,5 @@
+D:\Projects\Console_AuthApplication\obj\Release\net5.0\Console_AuthApplication.csproj.AssemblyReference.cache
+D:\Projects\Console_AuthApplication\obj\Release\net5.0\Console_AuthApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Console_AuthApplication\obj\Release\net5.0\Console_AuthApplication.AssemblyInfoInputs.cache
+D:\Projects\Console_AuthApplication\obj\Release\net5.0\Console_AuthApplication.AssemblyInfo.cs
+D:\Projects\Console_AuthApplication\obj\Release\net5.0\Console_AuthApplication.csproj.CoreCompileInputs.cache

@@ -1,12 +1,7 @@
 ﻿using System;
 
-namespace Console_AuthApplication
+public class Program
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    public static void Main(string[] args)
+        => AuthApplicationProgram.Start(ref args);
 }
